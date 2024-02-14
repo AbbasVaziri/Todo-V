@@ -27,5 +27,24 @@
 
 .checkbox {
     cursor: pointer;
-    font-size: 10px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .task-container{
+        width: 90%;
+    }
+    .task-container{
+        flex-wrap: wrap;
+    }
+    .todo-content{
+        font-size: 14px;
+    }
+    .icon-delete{
+        font-size: 24px;
+    }
+    .checkbox{
+        width: 30px;
+        height: 20px;
+    }
 }
