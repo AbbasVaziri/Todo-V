@@ -3,6 +3,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {addTodo} from "../redux/todoSlice.js";
 import styles from './Todo.module.css'
 import Task from "./Task.jsx";
+import NodeSchedule from "./NodeSchedule.jsx";
 
 const Todo = () => {
     const [task, setTask] = useState('')
@@ -24,6 +25,7 @@ const Todo = () => {
     return (
         <>
             <Task todo={todo}/>
+            {/*<NodeSchedule todo={todo}/>*/}
             <div className={styles['outer-container']}>
                 <input className={styles['input-add']} onKeyUp={addTodoHandler} value={task}
                        onChange={(e) => setTask(e.target.value)}/>

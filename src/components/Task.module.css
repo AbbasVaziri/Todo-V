@@ -1,12 +1,13 @@
 .outer-container {
     width: 100%;
+    word-wrap: anywhere;
 }
 
 .task-container {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    width: 25%;
+    flex-wrap: wrap;
+    width: 30%;
     background-color: rgb(66, 58, 111);
     color: #ffff;
     border: 1px solid rgba(0, 0, 0, .125);
