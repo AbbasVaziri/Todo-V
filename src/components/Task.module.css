@@ -1,51 +1,51 @@
 .outer-container {
-    width: 100%;
-    word-wrap: anywhere;
+  width: 100%;
+  word-wrap: anywhere;
 }
 
 .task-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 30%;
-    background-color: rgb(66, 58, 111);
-    color: #ffff;
-    border: 1px solid rgba(0, 0, 0, .125);
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 30%;
+  background-color: rgb(66, 58, 111);
+  color: #ffff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .todo-content {
-    font-size: 18px;
-    margin-left: 10px;
+  font-size: 18px;
+  margin-left: 10px;
 }
 
 .icon-delete {
-    margin-left: auto;
-    cursor: pointer;
-    font-size: 18px;
+  margin-left: auto;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 .checkbox {
-    cursor: pointer;
-    font-size: 16px;
+  cursor: pointer;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
-    .task-container{
-        width: 90%;
-    }
-    .task-container{
-        flex-wrap: wrap;
-    }
-    .todo-content{
-        font-size: 14px;
-    }
-    .icon-delete{
-        font-size: 24px;
-    }
-    .checkbox{
-        width: 30px;
-        height: 20px;
-    }
+  .task-container {
+    width: 90%;
+  }
+  .task-container {
+    flex-wrap: wrap;
+  }
+  .todo-content {
+    font-size: 14px;
+  }
+  .icon-delete {
+    font-size: 24px;
+  }
+  .checkbox {
+    width: 30px;
+    height: 20px;
+  }
 }

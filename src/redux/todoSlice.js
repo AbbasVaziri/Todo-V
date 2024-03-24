@@ -1,12 +1,5 @@
 import {createSlice} from "@reduxjs/toolkit";
 
-// const endDay = (date) => {
-//     let h = date.getHours();
-//     let m = date.getMinutes();
-//     let s = date.getSeconds();
-//     return (24 * 60 * 60) - (h * 60 * 60) - (m * 60) - s
-// }
-
 const todoSlice = createSlice({
     name: "todos",
     initialState: [
@@ -30,9 +23,6 @@ const todoSlice = createSlice({
                 todo.complete = !todo.complete
             }
         },
-        toggleDefault: (state) => {
-            state.complete = !state.complete;
-        }
     },
 })
 
